@@ -8,7 +8,7 @@
  *
  * @author Admin
  */
-import blood.bank.management.system.;
+
 import javax.swing.JOptionPane;
 
 
@@ -63,6 +63,11 @@ public class login1 extends javax.swing.JFrame {
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 350, 67, 30));
 
         jTextField4.setBackground(new java.awt.Color(255, 204, 204));
+        jTextField4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField4ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 300, 281, -1));
 
         jPasswordField1.setBackground(new java.awt.Color(255, 204, 204));
@@ -117,6 +122,10 @@ if (a == JOptionPane.YES_OPTION) {
         JOptionPane.showMessageDialog(null, "Incorrect Username or Password");
     }
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField4ActionPerformed
      /**
      * @param args the command line arguments
      */
